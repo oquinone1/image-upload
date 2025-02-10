@@ -12,7 +12,7 @@ export const ImageModal = ({ open, close, remove, image }) => {
       <Modal.Body className="flex-c">
         <img
           src={image}
-          alt={image}
+          // alt={image}
           className="flex-c"
           style={{ width: "350px", height: "350px", objectFit: "contain" }}
         />

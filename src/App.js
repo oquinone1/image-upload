@@ -1,7 +1,8 @@
 import React from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-import Profile from "./components/profile/profile";
-import Settings from "./components/settings/settings";
+// import Profile from "./components/profile/profile";
+// import Settings from "./components/settings/settings";
+import UnderDevelopment from "./components/underDevelopment";
 
 const App = () => {
   return (
@@ -24,11 +25,12 @@ const App = () => {
             <Likes />
           </Route> */}
           <Route path="/" exact>
-            <Profile />
+            {/* <Profile /> */}
+            <UnderDevelopment />
           </Route>
-          <Route path="/edit" exact>
+          {/* <Route path="/edit" exact>
             <Settings />
-          </Route>
+          </Route> */}
         </Switch>
       </div>
     </Router>
